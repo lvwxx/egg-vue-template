@@ -1,6 +1,8 @@
-# frontend-template
+# egg-vue-template
 
 A template of eggjs and vue project
+
+The front-end router start with '/api' will proxy to the egg-server
 
 ## QuickStart
 
@@ -10,15 +12,26 @@ see [egg docs][egg] for more detail.
 
 ### Development
 
+## Server
 ```bash
 $ npm i
 $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+## Frontend
+```bash
+$ cd front-end
+$ npm i 
+$ npm run dev
+$ open http://localhost:8080
+```
+
+### Deploy 
 
 ```bash
+$ cd front-end
+$ npm run build // index.nj and js、css will build public or view file
 $ npm start
 $ npm stop
 ```
