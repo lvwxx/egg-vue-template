@@ -2,9 +2,12 @@
 
 A template of eggjs and vue project
 
-The front-end router start with '/api' will proxy to the egg-server
+## Explain
+
+开发时 前端路由中 /api 开头的将会代理到 localhost:7001端口
 
 ## QuickStart
+
 
 <!-- add docs here for user -->
 

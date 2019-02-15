@@ -25,6 +25,7 @@ module.exports = appInfo => {
     },
   }
 
+
   return {
     ...config,
     ...userConfig,
