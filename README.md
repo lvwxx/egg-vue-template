@@ -6,8 +6,14 @@ A template of eggjs and vue project
 
 开发时 前端路由中 /api 开头的将会代理到 localhost:7001端口
 
-## QuickStart
+## Install
+```bash
 
+$ npm i npm i egg-vue-cli -g
+$ egg-vue-init
+```
+
+## QuickStart
 
 <!-- add docs here for user -->
 
